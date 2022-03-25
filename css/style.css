@@ -82,6 +82,11 @@ a{
     padding: 5px 15px;
 }
 
+.delete{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 /*----------------
       IMG
 -----------------*/
@@ -90,16 +95,16 @@ a{
     width: 100%;
 }
 
-
 /*----------------
-   MAIN-SECTION
+  MAIN-SECTION-H1
 -----------------*/
+
 section{
     padding: 90px 0;
 }
 .sec-h1{
     background-color: rgb(115, 198, 226);
-    
+    max-height: 600px;
 }
 
 .col-text, .col-img{
@@ -108,12 +113,12 @@ section{
 
 .col-text{
     width: 40%;
-    margin-top: 40px;
+    padding: 40px 0;
 }
 
 .col-img{
     width: 60%;
-    margin-top: 40px;
+    padding: 40px 0;
 }
 
 .col-img-right{
@@ -121,8 +126,16 @@ section{
 }
 
 h1{
-     font-size: 65px;
+    font-size: 65px;
 }
+
+h2{
+    margin-bottom: 30px;
+}
+
+
+
+
 
 
 
