@@ -39,6 +39,28 @@ body{
       HEADER
 -----------------*/
 
-.logo, .main-nav, .inizia{
+.header-top-left, .header-top-right{
     float: left;
+    width: 50%;
+    
+}
+
+.main-nav ul li, .inizia ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*----------------
+      BUTTON
+-----------------*/
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 5px 15px;
 }
