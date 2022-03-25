@@ -12,7 +12,7 @@
 -----------------*/
 
 .container {
-    max-width: 1300px;
+    max-width: 1450px;
     margin: auto;
 }
 
@@ -43,11 +43,26 @@ body{
     float: left;
     width: 50%;
     
+    
 }
 
 .main-nav ul li, .inizia ul li{
     display: inline-block;
     padding-left: 20px;
+    vertical-align: middle;
+    line-height: 20px;
+    
+}
+
+.logo, .main-nav, .inizia{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.inizia{
+    float: right;
 }
 
 a{
@@ -64,3 +79,43 @@ a{
     color: white;
     padding: 5px 15px;
 }
+
+/*----------------
+      IMG
+-----------------*/
+
+.logo-2{
+    width: 100%;
+}
+
+
+/*----------------
+      MAIN
+-----------------*/
+section{
+    padding: 100px 0;
+}
+.sec-h1{
+    background-color: rgb(115, 198, 226);
+    
+}
+
+.col-text, .col-img{
+    float: left;
+}
+
+.col-text{
+    width: 40%;
+    margin-top: 40px;
+}
+
+.col-img{
+    width: 60%;
+    margin-top: 40px;
+}
+
+h1{
+     font-size: 60px;
+     
+ }
+
