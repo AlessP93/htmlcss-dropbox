@@ -1,0 +1,44 @@
+/*----------------
+      RESET
+-----------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------
+     COMMONS
+-----------------*/
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.container-small {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----------------
+      TYPO
+-----------------*/
+
+body{
+    font-family: 'Roboto Slab', serif;
+ }
+
+/*----------------
+      HEADER
+-----------------*/
+
+.logo, .main-nav, .inizia{
+    float: left;
+}
