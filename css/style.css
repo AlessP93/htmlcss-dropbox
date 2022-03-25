@@ -133,6 +133,14 @@ h2{
     margin-bottom: 30px;
 }
 
+.col-1{
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+    border: 1px solid;
+    
+}
+
 
 
 
