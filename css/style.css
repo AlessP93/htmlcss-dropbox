@@ -93,7 +93,13 @@ a{
     background-color: blue;
     color: white;
     padding: 5px 15px;
-    
+}
+
+.btn-partner{
+    float: left;
+    color: black;
+    margin-top: 20px;
+    padding: 5px;
 }
 
 /*----------------
@@ -102,6 +108,10 @@ a{
 
 .logo-2{
     width: 100%;
+}
+
+.img-partner{
+    width: 90%;
 }
 
 /*----------------
@@ -150,11 +160,18 @@ h2{
     padding: 10px;
 }
 
-.text-col{
-    display: inline-block;
-    border-bottom: 1px solid;
-    padding: 20px;
+.col-2{
+    float: left;
+    width: calc(100% / 3 - 20px);
     text-align: center;
+    padding: 10px;
+}
+
+.text-col{
+    text-align: center;
+    border-bottom: 1px solid;
+    padding: 10px;
+    
 }
 
 .col-middle{
@@ -163,6 +180,7 @@ h2{
 
 .mounth{
     color: grey;
+    font-size: 12px;
 }
 
 .list-col li{
