@@ -24,7 +24,6 @@
 .container-s {
     max-width: 800px;
     margin: auto;
-    
 }
 
 .clearfix::after {
@@ -114,12 +113,27 @@ a{
     width: 90%;
 }
 
+.img-1{
+    width: 100%;
+}
+
+.img-2{
+    width: 100%;
+}
+.img-3{
+    width: 100%;
+}
+
 /*----------------
   MAIN-SECTION-H1
 -----------------*/
 
 section{
     padding: 90px 0;
+}
+
+.sec-2{
+    margin-top: 5px;
 }
 .sec-h1{
     background-color: rgb(115, 198, 226);
