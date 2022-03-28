@@ -222,3 +222,32 @@ hr{
     padding: 20px;
 }
 
+.space-left, .space-centre, .space-right{
+    float:left
+ }
+
+.space-left, .space-right{
+    margin: auto;
+    height: 25vw;
+}
+
+.space-center{
+    width: calc(100% - 50vw);
+    height: 25vw;
+    padding: 40px;
+}
+
+.square img{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: grayscale(1);
+ }
+ 
+ .square{
+    position: relative;
+    height: 12.5vw;
+    width: 12.5vw;
+ }
