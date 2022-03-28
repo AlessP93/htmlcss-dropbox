@@ -86,6 +86,13 @@ a{
 
 .delete{
     margin-top: 20px;
+}
+
+.btn-contact{
+    float: right;
+    background-color: blue;
+    color: white;
+    padding: 5px 15px;
     
 }
 
@@ -146,6 +153,7 @@ h2{
 .text-col{
     display: inline-block;
     border-bottom: 1px solid;
+    padding: 20px;
 }
 
 .col-middle{
@@ -170,6 +178,13 @@ hr{
 .price{
     text-align: left;
     margin-top: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
 }
 
+.col-under{
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+}
 
