@@ -21,6 +21,12 @@
     margin: auto;
 }
 
+.container-m-black {
+    max-width: 1080px;
+    margin: auto;
+    background-color: black;
+}
+
 .container-s {
     max-width: 800px;
     margin: auto;
@@ -50,6 +56,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 .main-nav ul li, .inizia ul li{
@@ -74,6 +81,14 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.list-footer {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+
 
 /*----------------
       BUTTON
@@ -106,7 +121,9 @@ a{
 
 .btn-footer{
     float: right;
-    
+    margin-top: 120px;
+    padding: 5px 10px;
+    background-color: white;
 }
 
 /*----------------
@@ -154,6 +171,11 @@ section{
     margin: auto;
 }
 
+.sec-black{
+    background-color: black;
+    text-align: center;
+}
+
 .col-text, .col-img{
     float: left;
 }
@@ -180,9 +202,15 @@ h2{
     margin-bottom: 30px;
 }
 
+.h5-footer{
+    color: white;
+    padding-bottom: 20px;
+}
+
 .text-business{
     column-gap: rgb(194, 69, 69);
     padding: 100px 0;
+    font-size: 40px;
 }
 
 .h2-500{
@@ -194,13 +222,18 @@ h2{
     width: calc(100% / 3 - 20px);
     text-align: center;
     border: 1px solid;
-    
 }
 
 .col-2{
     float: left;
     width: calc(100% / 3 - 20px);
     text-align: center;
+    padding: 10px;
+}
+
+.col-3{
+    float: left;
+    width: calc(100% / 5 - 20px);
     padding: 10px;
 }
 
@@ -329,5 +362,14 @@ hr{
 .channel{
     background-color: yellow;
     filter: invert(100%);
+}
+
+.hr-col{
+    margin-left: 10px;
+}
+
+.hr-faq{
+    width: 100%;
+    
 }
 
