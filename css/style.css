@@ -152,7 +152,7 @@ a{
 
 .designit-logo{
     width: 20%;
-    float: left;
+    padding: 30px
 }
 
 /*----------------
@@ -302,8 +302,9 @@ hr{
     width: calc(100% - 50vw);
     background-color: lightgray;
     float: left;
-    padding: 40px;
+    height: 25vw;
     overflow-y: auto;
+    
     
 }
 
